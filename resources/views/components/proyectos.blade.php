@@ -40,8 +40,8 @@
                             </x-table.td>
                             <x-table.td>
                                 <td class="px-6 py-4 text-center">
-                                    <a href="/productos/{{ $proyecto->id }}"
-                                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Ver tareas
+                                    <a href="/proyecto/{{ $proyecto }}"
+                                        class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Ver
                                     </a>
 
                                     <a href="/productos/delete/{{ $producto->id }}"
